@@ -7,8 +7,42 @@
     <meta name="author" content="Axel Cisneros" />
     <meta name="keywords" content="html, css" />
     <title>Mi profolio</title>
-    <link rel="shortcut icon" href="A C F.ico" />
-    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="ACF.ico" />
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="page">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a href="#header" class="nav__link">Up level</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#presentation" class="nav__link">Yo soy</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#works" class="nav__link">Trabajos</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#footer" class="nav__link">Hablame</a>
+          </li>
+        </ul>
+      </nav>
+      <header class="header" id="header">
+        <img src="./images/logo.svg" alt="mi-logo" class="header__logo" />
+        <h1 class="header__title">
+          <span class="header__span-color">Soy</span>
+          Axel Cisneros
+        </h1>
+        <!-- <div class="header__content">-->
+        <img src="./images/yo.png" alt="axl-cisneros" class="header__image" />
+        <!--  </div>-->
+      </header>
+      <main class="main">
+        <section class="presentation" id="presentation"></section>
+        <section class="works" id="works"></section>
+      </main>
+      <footer class="footer" id="footer"></footer>
+    </div>
+  </body>
 </html>

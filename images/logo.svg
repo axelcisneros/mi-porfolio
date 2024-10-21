@@ -1,14 +1,8 @@
 <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Definición de la imagen de fondo -->
-  <defs>
-    <pattern id="background" patternUnits="userSpaceOnUse" width="200" height="200">
-      <image href="anuncio2.jpg" x="0" y="0" width="200" height="200" />
-    </pattern>
-  </defs>
-
-  <!-- Rectángulo que usa la imagen de fondo -->
-  <rect width="200" height="200" fill="url(#background)" />
-
+  <!-- Círculo de fondo -->
+  <circle cx="80" cy="60" r="80" fill="#2f80ed"/>
   <!-- Texto en el centro -->
-  <text x="100" y="110" font-family="Permanent Marker" font-size="50" fill="white" text-anchor="middle">A C F</text>
+  <text x="100" y="110" font-size="40" fill="white" text-anchor="middle">A C F</text>
 </svg>
+
+
