@@ -6,7 +6,7 @@ body {
 }
 
 .page {
-  width: 100%;
+  max-width: 1300px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(6, 2fr);
@@ -67,17 +67,17 @@ body {
 
 .header {
   grid-area: header;
-  grid-gap: 0;
   position: relative;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   font-family: "Permanent Marker", cursive;
   font-size: 50px;
 }
 
 .header__logo {
   position: absolute;
-  top: -70px;
-  left: -35px;
+  top: -75px;
 }
 
 .header__title {
@@ -87,14 +87,21 @@ body {
   line-height: 72px;
   letter-spacing: -1px;
   max-width: 709px;
-  margin: auto 61px;
+  margin: auto;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.header__span-opacity {
+  opacity: 0.1;
 }
 
 .header__image {
   position: relative;
-  width: 40%;
-  opacity: 0.2;
-  right: 50px;
+  width: 100%;
+  opacity: 0.1;
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
 }
 
 .main {
