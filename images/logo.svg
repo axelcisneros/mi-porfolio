@@ -1,8 +1,0 @@
-<svg width="160" height="140" xmlns="http://www.w3.org/2000/svg">
-  <!-- Círculo de fondo -->
-  <circle cx="80" cy="60" r="80" fill="#2f80ed"/>
-  <!-- Texto en el centro -->
-  <text x="80" y="110" font-size="40" fill="white" text-anchor="middle">A C F</text>
-</svg>
-
-
